@@ -8,7 +8,6 @@ import {
   Phone, 
   MapPin,
   Facebook,
-  Twitter,
   Instagram,
   Linkedin,
   Github,
@@ -531,7 +530,7 @@ const LandingPage = () => {
                     className="relative group cursor-pointer"
                     onMouseEnter={() => window.innerWidth > 768 && (company === 'Careers' || company === 'Blog') && setActiveCompany(company)}
                     onMouseLeave={() => window.innerWidth > 768 && (company === 'Careers' || company === 'Blog') && setActiveCompany(null)}
-                    onClick={e => {
+                    onClick={() => {
                       if (company === 'About Us') {
                         document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
                       } else if (company === 'Our Team') {
