@@ -1,6 +1,6 @@
 # TechLabs - Modern React Landing Page
 
-A professional, modern landing page built with React, TypeScript, and Tailwind CSS. This application demonstrates advanced frontend development techniques and includes a functional API integration demo.
+This is my professional, modern landing page built with React, TypeScript, and Tailwind CSS. I created this application to demonstrate advanced frontend development techniques and to include a functional Weather API integration demo.
 
 ## 🚀 Features
 
@@ -13,11 +13,9 @@ A professional, modern landing page built with React, TypeScript, and Tailwind C
 - **Footer**: Comprehensive footer with social links and company information
 - **Social Links**: Integrated social media links throughout the application
 
-### API Demo Page
-- **Weather API Integration**: Uses WeatherAPI.com to display real-time weather data
+### Weather API Page
+- **Weather API Integration**: Uses OpenWeatherMap to display real-time weather data
 - **Search Functionality**: Search weather for any city worldwide
-- **Popular Cities**: Quick access to weather for popular cities
-- **Recent Searches**: Track and reuse recent city searches
 - **Responsive Design**: Beautiful weather display with detailed information
 
 ## 🛠️ Technologies Used
@@ -34,7 +32,7 @@ A professional, modern landing page built with React, TypeScript, and Tailwind C
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Kushal007-Bhandari/techlabs-app.git
    cd techlabs-app
    ```
 
@@ -56,12 +54,12 @@ A professional, modern landing page built with React, TypeScript, and Tailwind C
 ### Weather API Setup
 To make the weather API demo functional:
 
-1. Sign up for a free API key at [WeatherAPI.com](https://www.weatherapi.com/)
-2. Replace `YOUR_API_KEY` in `src/pages/ApiPage.tsx` with your actual API key
+1. Sign up for a free API key at [OpenWeatherMap](https://openweathermap.org/)
+2. Replace the API key in `src/pages/WeatherPage.tsx` with your actual API key
 3. The API will then provide real-time weather data for any city
 
 ### Contact Form API
-The contact form is configured to send data to `https://api.aakashlabs.com/contact`. Ensure this endpoint is available and properly configured.
+The contact form is configured to send data to `https://api.aakashlabs.com/contact`. Make sure this endpoint is available and properly configured.
 
 ## 📁 Project Structure
 
@@ -69,11 +67,11 @@ The contact form is configured to send data to `https://api.aakashlabs.com/conta
 src/
 ├── pages/
 │   ├── LandingPage.tsx    # Main landing page with all sections
-│   └── ApiPage.tsx        # Weather API demo page
+│   └── WeatherPage.tsx    # Weather API demo page
 ├── App.tsx                # Main app component with routing
-├── main.tsx              # Application entry point
-├── index.css             # Global styles and Tailwind imports
-└── assets/               # Static assets
+├── main.tsx               # Application entry point
+├── index.css              # Global styles and Tailwind imports
+└── assets/                # Static assets
 ```
 
 ## 🎨 Design Features
@@ -99,10 +97,9 @@ src/
 - **Contact Form**: Fully functional form with validation
 - **Social Integration**: Multiple social media platforms
 
-### API Demo
+### Weather API Demo
 - **Weather Search**: Real-time weather data lookup
-- **City Suggestions**: Popular cities for quick access
-- **Detailed Weather Info**: Temperature, humidity, wind, visibility, etc.
+- **Detailed Weather Info**: Temperature, humidity, wind, etc.
 - **Weather Icons**: Dynamic weather condition icons
 
 ## 🚀 Deployment
@@ -118,7 +115,7 @@ npm run preview
 ```
 
 ### Deploy to Vercel/Netlify
-The project is ready for deployment on modern hosting platforms:
+My project is ready for deployment on modern hosting platforms:
 - **Vercel**: Connect your GitHub repository
 - **Netlify**: Drag and drop the `dist` folder
 - **GitHub Pages**: Use GitHub Actions for deployment
@@ -145,7 +142,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - **Unsplash** for beautiful stock photos
-- **WeatherAPI.com** for weather data
+- **OpenWeatherMap** for weather data
 - **Lucide** for amazing icons
 - **Tailwind CSS** for the utility-first framework
 - **Framer Motion** for smooth animations
@@ -155,7 +152,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For support or questions:
 - Email: info@techlabs.com
 - Website: https://techlabs.com
-- GitHub Issues: [Create an issue](https://github.com/your-repo/issues)
+- GitHub Issues: [Create an issue](https://github.com/Kushal007-Bhandari/techlabs-app/issues)
 
 ---
 
