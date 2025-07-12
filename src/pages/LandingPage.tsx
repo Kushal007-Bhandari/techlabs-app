@@ -178,6 +178,8 @@ const LandingPage = () => {
                 src={slide.image}
                 alt={slide.title}
                 className="w-full h-full object-cover"
+                fetchPriority={index === 0 ? "high" : "auto"}
+                loading={index === 0 ? "eager" : "lazy"}
               />
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center text-white">
