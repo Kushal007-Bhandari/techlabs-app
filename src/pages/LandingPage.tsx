@@ -13,7 +13,7 @@ import {
   Github,
   Send
 } from 'lucide-react';
-import arCollabImg from '../assets/teens-doing-experiments-robotics-laboratory-boy-vr-headset-holding-small-drone.jpg';
+import arCollabImg from '../assets/teens-doing-experiments-robotics-laboratory-boy-vr-headset-holding-small-drone.webp';
 import globalImpactImg from '../assets/team-working-by-group-video-call-share-ideas-brainstorming-negotiating-use-video-conference.jpg';
 import cloudSolutionsImg from '../assets/1902.i039.011.P.m004.c30.cloud services isometric icons-04.jpg';
 import aiMlImg from '../assets/emiliano-vittoriosi-G_vWviqUCCg-unsplash.jpg';
