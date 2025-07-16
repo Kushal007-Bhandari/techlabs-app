@@ -584,6 +584,7 @@ const LandingPage = () => {
           
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
             <p>&copy; 2025 TechLabs. All rights reserved.</p>
+            <p className="mt-2">Built by Kushal Bhandari</p>
           </div>
         </div>
       </footer>
