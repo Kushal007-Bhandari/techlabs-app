@@ -134,7 +134,7 @@ const LandingPage = () => {
   const [activeService, setActiveService] = useState<string | null>(null);
 
   const companyDescriptions: Record<string, string> = {
-    'Careers': 'For career opportunities, contact: info@aakashlabs.com',
+    'Careers': 'For career opportunities, contact: contact@techlabs.com',
     'Blog': 'Blog coming soon! Visit our homepage.'
   };
   const [activeCompany, setActiveCompany] = useState<string | null>(null);
@@ -373,15 +373,15 @@ const LandingPage = () => {
               <div className="space-y-4">
                 <div className="flex items-center">
                   <Phone className="text-blue-600 mr-3" size={20} />
-                  <span className="text-gray-700">+977-1-4430196</span>
+                  <span className="text-gray-700">+1-415-555-1234</span>
                 </div>
                 <div className="flex items-center">
                   <Mail className="text-blue-600 mr-3" size={20} />
-                  <span className="text-gray-700">info@aakashlabs.com</span>
+                  <span className="text-gray-700">contact@techlabs.com</span>
                 </div>
                 <div className="flex items-center">
                   <MapPin className="text-blue-600 mr-3" size={20} />
-                  <span className="text-gray-700">Laxmi Plaza, Putali Sadak, Kathmandu, Nepal</span>
+                  <span className="text-gray-700">123 Market St, San Francisco, CA, USA</span>
                 </div>
               </div>
               
@@ -389,19 +389,19 @@ const LandingPage = () => {
               <div className="mt-8">
                 <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
                 <div className="flex space-x-4">
-                  <a href="https://facebook.com/aakashlabs" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white p-3 rounded-full hover:bg-blue-700 transition-colors">
+                  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white p-3 rounded-full hover:bg-blue-700 transition-colors">
                     <Facebook size={20} />
                   </a>
-                  <a href="https://twitter.com/aakashlabs" target="_blank" rel="noopener noreferrer" className="bg-blue-400 text-white p-3 rounded-full hover:bg-blue-500 transition-colors">
+                  <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="bg-blue-400 text-white p-3 rounded-full hover:bg-blue-500 transition-colors">
                     <XIcon />
                   </a>
-                  <a href="https://instagram.com/aakashlabs" target="_blank" rel="noopener noreferrer" className="bg-pink-600 text-white p-3 rounded-full hover:bg-pink-700 transition-colors">
+                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="bg-pink-600 text-white p-3 rounded-full hover:bg-pink-700 transition-colors">
                     <Instagram size={20} />
                   </a>
-                  <a href="https://linkedin.com/company/aakashlabs" target="_blank" rel="noopener noreferrer" className="bg-blue-800 text-white p-3 rounded-full hover:bg-blue-900 transition-colors">
+                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="bg-blue-800 text-white p-3 rounded-full hover:bg-blue-900 transition-colors">
                     <Linkedin size={20} />
                   </a>
-                  <a href="https://github.com/aakashlabs" target="_blank" rel="noopener noreferrer" className="bg-gray-800 text-white p-3 rounded-full hover:bg-gray-900 transition-colors">
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="bg-gray-800 text-white p-3 rounded-full hover:bg-gray-900 transition-colors">
                     <Github size={20} />
                   </a>
                 </div>
@@ -565,16 +565,16 @@ const LandingPage = () => {
               <h4 className="text-lg font-semibold mb-4 text-center w-full">Connect</h4>
               <div className="flex justify-center w-full">
                 <div className="flex space-x-4">
-                  <a href="https://facebook.com/aakashlabs" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                     <Facebook size={20} />
                   </a>
-                  <a href="https://twitter.com/aakashlabs" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                  <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                     <XIcon />
                   </a>
-                  <a href="https://instagram.com/aakashlabs" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                     <Instagram size={20} />
                   </a>
-                  <a href="https://linkedin.com/company/aakashlabs" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                     <Linkedin size={20} />
                   </a>
                 </div>
